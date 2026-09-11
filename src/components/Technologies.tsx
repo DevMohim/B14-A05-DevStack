@@ -13,6 +13,11 @@ export default function Technologies({
   const [technologyCart, setTechnologyCart] = useState<ITechnologyType[]>([]);
 
 
+  const handleAllDelete = () => {
+   setTechnologyCart([])
+  }
+
+
 
   const technologies = use(technologiesPromise);
 
@@ -63,7 +68,7 @@ export default function Technologies({
                   key={technology.id}
                   technology={technology}
                   technologyCart={technologyCart}
-                  setTechnologyCart={setTechnologyCart}
+                  setTechnologyCart={setTechnologyCart} 
                 />
               ))}
             </div>
@@ -72,7 +77,7 @@ export default function Technologies({
           {technologyCart.length > 0 ? (
             <>
               <div className="w-full mt-10">
-                <button className="w-full border border-[#ED8C85] text-[14px] font-inter font-semibold rounded-lg cursor-pointer py-1">
+                <button className="w-full border border-[#ED8C85] text-[14px] font-inter font-semibold rounded-lg cursor-pointer py-1" onClick={handleAllDelete}>
                   Remove All
                 </button>
               </div>

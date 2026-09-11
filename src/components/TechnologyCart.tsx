@@ -39,7 +39,7 @@ export default function StackCart({
         className="cursor-pointer"
         onClick={() => handleDeleteClick(technology.id)}
       >
-        <RxCross2 className="font-bold text-lg" />
+        <RxCross2 className="font-bold text-lg text-gray-500/80" />
       </div>
     </div>
   );
