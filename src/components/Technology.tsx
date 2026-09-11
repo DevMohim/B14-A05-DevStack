@@ -15,7 +15,6 @@ export default function Technology({
 
   const handleSelect = () => {
     setIsSelect(true);
-
     setTechnologyCart((prevTech) => [...prevTech, technology]);
   };
   return (
@@ -62,6 +61,7 @@ export default function Technology({
             disabled={isSelect}
           >
             {isSelect ? "✓ Added to cart" : "Add to Stack"}
+            
           </button>
         </div>
       </div>

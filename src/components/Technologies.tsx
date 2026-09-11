@@ -12,6 +12,8 @@ export default function Technologies({
 }: TechnologiesProps) {
   const [technologyCart, setTechnologyCart] = useState<ITechnologyType[]>([]);
 
+
+
   const technologies = use(technologiesPromise);
 
   return (
@@ -45,18 +47,39 @@ export default function Technologies({
 
         {/* Selected stack side */}
         {/* 25% / col span 3 */}
-        <div className="col-span-3 p-5 rounded-2xl border border-[#F1F5F9] flex justify-between flex-col">
-          <div>
-            <h1 className="font-bold text-[16px] font-inter text-[#0F172A]">
-              Your Stack
-            </h1>
-            <p className="font-jakarta text-[#94A3B8] text-[12px] ">
-              {technologyCart.length} Technology Selected
-            </p>
+        <div className="col-span-3 p-5 rounded-2xl border border-[#F1F5F9] flex flex-col">
+          <div className="flex flex-col justify-between">
+            <div className="mb-4">
+              <h1 className="font-bold text-[16px] font-inter text-[#0F172A]">
+                Your Stack
+              </h1>
+              <p className="font-jakarta text-[#94A3B8] text-[12px] ">
+                {technologyCart.length} Technology Selected
+              </p>
+            </div>
+            <div className="flex flex-col gap-2">
+              {technologyCart.map((technology) => (
+                <TechnologyCart
+                  key={technology.id}
+                  technology={technology}
+                  technologyCart={technologyCart}
+                  setTechnologyCart={setTechnologyCart}
+                />
+              ))}
+            </div>
           </div>
-          {technologyCart.map((technology) => (
-            <TechnologyCart key={technology.id} technology={technology} />
-          ))}
+
+          {technologyCart.length > 0 ? (
+            <>
+              <div className="w-full mt-10">
+                <button className="w-full border border-[#ED8C85] text-[14px] font-inter font-semibold rounded-lg cursor-pointer py-1">
+                  Remove All
+                </button>
+              </div>
+            </>
+          ) : (
+            ""
+          )}
         </div>
       </div>
     </section>
