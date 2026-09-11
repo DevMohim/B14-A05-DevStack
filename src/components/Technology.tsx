@@ -1,6 +1,7 @@
 import { IoMdStar } from "react-icons/io";
 import type { ITechnologyType } from "../types/TechnologyType";
 import { useState, type Dispatch, type SetStateAction } from "react";
+import { Bounce, toast } from "react-toastify";
 
 export interface TechnologyProps {
   technology: ITechnologyType;
@@ -16,6 +17,17 @@ export default function Technology({
   const handleSelect = () => {
     setIsSelect(true);
     setTechnologyCart((prevTech) => [...prevTech, technology]);
+    toast.success(`${technology.name} added successfully`, {
+      position: "bottom-right",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+    });
   };
   return (
     <div
