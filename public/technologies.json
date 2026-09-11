@@ -7,7 +7,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/HTML5.svg",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
-    "badge": "Essential"
+    "badge": "Essential",
+    "textColor": "text-[#E34F26]",
+    "bgColor": "bg-[#FCE7E2]"
   },
   {
     "id": "css",
@@ -17,7 +19,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/CSS3.svg",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
-    "badge": "Essential"
+    "badge": "Essential",
+    "textColor": "text-[#1572B6]",
+    "bgColor": "bg-[#E3F2FD]"
   },
   {
     "id": "javascript",
@@ -27,7 +31,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
+    "badge": "Popular",
+    "textColor": "text-[#CA8A04]",
+    "bgColor": "bg-[#FEF9C3]"
   },
   {
     "id": "typescript",
@@ -37,7 +43,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/TypeScript.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Trending"
+    "badge": "Trending",
+    "textColor": "text-[#3178C6]",
+    "bgColor": "bg-[#E5F0FB]"
   },
   {
     "id": "react",
@@ -47,7 +55,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/React.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
+    "badge": "Popular",
+    "textColor": "text-[#61DAFB]",
+    "bgColor": "bg-[#E8FAFE]"
   },
   {
     "id": "nextjs",
@@ -57,7 +67,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Next.js.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Popular"
+    "badge": "Popular",
+    "textColor": "text-[#18181B]",
+    "bgColor": "bg-[#F4F4F5]"
   },
   {
     "id": "vue",
@@ -67,7 +79,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Vue.js.svg",
     "rating": 4.7,
     "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
+    "badge": "Popular",
+    "textColor": "text-[#42B883]",
+    "bgColor": "bg-[#E7F8F0]"
   },
   {
     "id": "angular",
@@ -77,7 +91,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Angular.svg",
     "rating": 4.6,
     "difficulty": "Advanced",
-    "badge": "Enterprise"
+    "badge": "Enterprise",
+    "textColor": "text-[#DD0031]",
+    "bgColor": "bg-[#FDE7EC]"
   },
   {
     "id": "tailwindcss",
@@ -87,7 +103,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
-    "badge": "Trending"
+    "badge": "Trending",
+    "textColor": "text-[#06B6D4]",
+    "bgColor": "bg-[#E6FAFC]"
   },
   {
     "id": "bootstrap",
@@ -97,7 +115,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Bootstrap.svg",
     "rating": 4.6,
     "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
+    "badge": "Popular",
+    "textColor": "text-[#7952B3]",
+    "bgColor": "bg-[#F0EAF8]"
   },
   {
     "id": "sass",
@@ -107,7 +127,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Sass.svg",
     "rating": 4.5,
     "difficulty": "Intermediate",
-    "badge": "CSS Tool"
+    "badge": "CSS Tool",
+    "textColor": "text-[#CC6699]",
+    "bgColor": "bg-[#FAEAF2]"
   },
   {
     "id": "nodejs",
@@ -117,7 +139,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Node.js.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Popular"
+    "badge": "Popular",
+    "textColor": "text-[#339933]",
+    "bgColor": "bg-[#E8F6E8]"
   },
   {
     "id": "expressjs",
@@ -127,7 +151,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Express.svg",
     "rating": 4.8,
     "difficulty": "Intermediate",
-    "badge": "Popular"
+    "badge": "Popular",
+    "textColor": "text-[#18181B]",
+    "bgColor": "bg-[#F4F4F5]"
   },
   {
     "id": "nestjs",
@@ -137,7 +163,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Nest.js.svg",
     "rating": 4.7,
     "difficulty": "Advanced",
-    "badge": "Enterprise"
+    "badge": "Enterprise",
+    "textColor": "text-[#E0234E]",
+    "bgColor": "bg-[#FCE7EC]"
   },
   {
     "id": "python",
@@ -147,7 +175,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Python.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
+    "badge": "Popular",
+    "textColor": "text-[#3776AB]",
+    "bgColor": "bg-[#E8F1F8]"
   },
   {
     "id": "java",
@@ -157,7 +187,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Java.svg",
     "rating": 4.7,
     "difficulty": "Intermediate",
-    "badge": "Enterprise"
+    "badge": "Enterprise",
+    "textColor": "text-[#ED8B00]",
+    "bgColor": "bg-[#FFF1DC]"
   },
   {
     "id": "php",
@@ -167,7 +199,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/PHP.svg",
     "rating": 4.5,
     "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
+    "badge": "Popular",
+    "textColor": "text-[#777BB4]",
+    "bgColor": "bg-[#EEEEF8]"
   },
   {
     "id": "csharp",
@@ -177,7 +211,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/C-sharp.svg",
     "rating": 4.7,
     "difficulty": "Intermediate",
-    "badge": "Microsoft"
+    "badge": "Microsoft",
+    "textColor": "text-[#68217A]",
+    "bgColor": "bg-[#F3E8F6]"
   },
   {
     "id": "mongodb",
@@ -187,7 +223,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/MongoDB.svg",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
+    "badge": "Popular",
+    "textColor": "text-[#47A248]",
+    "bgColor": "bg-[#EAF6EA]"
   },
   {
     "id": "postgresql",
@@ -197,7 +235,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Top SQL"
+    "badge": "Top SQL",
+    "textColor": "text-[#4169E1]",
+    "bgColor": "bg-[#E9EEFC]"
   },
   {
     "id": "mysql",
@@ -207,7 +247,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/MySQL.svg",
     "rating": 4.7,
     "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
+    "badge": "Popular",
+    "textColor": "text-[#4479A1]",
+    "bgColor": "bg-[#E8F1F7]"
   },
   {
     "id": "redis",
@@ -217,7 +259,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Redis.svg",
     "rating": 4.7,
     "difficulty": "Intermediate",
-    "badge": "Fast"
+    "badge": "Fast",
+    "textColor": "text-[#DC382D]",
+    "bgColor": "bg-[#FCE9E8]"
   },
   {
     "id": "firebase",
@@ -227,7 +271,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Firebase.svg",
     "rating": 4.7,
     "difficulty": "Beginner-Friendly",
-    "badge": "Google"
+    "badge": "Google",
+    "textColor": "text-[#FFCA28]",
+    "bgColor": "bg-[#FFF8DC]"
   },
   {
     "id": "git",
@@ -237,7 +283,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Git.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
-    "badge": "Essential"
+    "badge": "Essential",
+    "textColor": "text-[#F05032]",
+    "bgColor": "bg-[#FDEBE7]"
   },
   {
     "id": "github",
@@ -247,7 +295,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/GitHub.svg",
     "rating": 4.9,
     "difficulty": "Beginner-Friendly",
-    "badge": "Essential"
+    "badge": "Essential",
+    "textColor": "text-[#18181B]",
+    "bgColor": "bg-[#F4F4F5]"
   },
   {
     "id": "docker",
@@ -257,7 +307,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Docker.svg",
     "rating": 4.8,
     "difficulty": "Intermediate",
-    "badge": "DevOps"
+    "badge": "DevOps",
+    "textColor": "text-[#2496ED]",
+    "bgColor": "bg-[#E8F4FD]"
   },
   {
     "id": "kubernetes",
@@ -267,7 +319,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Kubernetes.svg",
     "rating": 4.8,
     "difficulty": "Advanced",
-    "badge": "Cloud"
+    "badge": "Cloud",
+    "textColor": "text-[#326CE5]",
+    "bgColor": "bg-[#E9EFFC]"
   },
   {
     "id": "aws",
@@ -277,7 +331,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/AWS.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Cloud Leader"
+    "badge": "Cloud Leader",
+    "textColor": "text-[#FF9900]",
+    "bgColor": "bg-[#FFF2DF]"
   },
   {
     "id": "vercel",
@@ -287,7 +343,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Vercel.svg",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
+    "badge": "Popular",
+    "textColor": "text-[#18181B]",
+    "bgColor": "bg-[#F4F4F5]"
   },
   {
     "id": "netlify",
@@ -297,7 +355,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Netlify.svg",
     "rating": 4.7,
     "difficulty": "Beginner-Friendly",
-    "badge": "Easy Deploy"
+    "badge": "Easy Deploy",
+    "textColor": "text-[#00C7B7]",
+    "bgColor": "bg-[#E5FAF8]"
   },
   {
     "id": "figma",
@@ -307,7 +367,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Figma.svg",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
+    "badge": "Popular",
+    "textColor": "text-[#F24E1E]",
+    "bgColor": "bg-[#FDEBE6]"
   },
   {
     "id": "graphql",
@@ -317,7 +379,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/GraphQL.svg",
     "rating": 4.6,
     "difficulty": "Intermediate",
-    "badge": "API"
+    "badge": "API",
+    "textColor": "text-[#E10098]",
+    "bgColor": "bg-[#FCE5F5]"
   },
   {
     "id": "redux",
@@ -327,7 +391,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Redux.svg",
     "rating": 4.6,
     "difficulty": "Intermediate",
-    "badge": "State"
+    "badge": "State",
+    "textColor": "text-[#764ABC]",
+    "bgColor": "bg-[#F0EAF9]"
   },
   {
     "id": "flutter",
@@ -337,7 +403,9 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Flutter.svg",
     "rating": 4.7,
     "difficulty": "Intermediate",
-    "badge": "Cross-Platform"
+    "badge": "Cross-Platform",
+    "textColor": "text-[#02569B]",
+    "bgColor": "bg-[#E6F2FA]"
   },
   {
     "id": "react-native",
@@ -347,6 +415,8 @@
     "icon": "https://icon.icepanel.io/Technology/svg/React.svg",
     "rating": 4.7,
     "difficulty": "Intermediate",
-    "badge": "Popular"
+    "badge": "Popular",
+    "textColor": "text-[#61DAFB]",
+    "bgColor": "bg-[#E8FAFE]"
   }
 ]
