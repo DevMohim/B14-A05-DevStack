@@ -14,6 +14,8 @@ export default function Technologies({
   const [technologyCart, setTechnologyCart] = useState<ITechnologyType[]>([]);
 
 
+
+
   const handleAllDelete = () => {
    setTechnologyCart([])
   }
@@ -23,7 +25,7 @@ export default function Technologies({
   const technologies = use(technologiesPromise);
 
   return (
-    <section className="container mx-auto px-6 lg:px-8 py-2">
+    <section className="container mx-auto px-6 lg:px-8 py-2 mb-25">
       <div className="mb-10">
         <h1 className="text-[#0F172A] font-black text-4xl font-inter mb-2">
           Explore the{" "}

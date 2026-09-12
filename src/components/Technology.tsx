@@ -11,8 +11,11 @@ export interface TechnologyProps {
 export default function Technology({
   technology,
   setTechnologyCart,
+  
 }: TechnologyProps) {
   const [isSelect, setIsSelect] = useState<boolean>(false);
+
+
 
   const handleSelect = () => {
     setIsSelect(true);
@@ -73,7 +76,6 @@ export default function Technology({
             disabled={isSelect}
           >
             {isSelect ? "✓ Added to cart" : "Add to Stack"}
-            
           </button>
         </div>
       </div>
