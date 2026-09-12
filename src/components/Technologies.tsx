@@ -20,9 +20,9 @@ export default function Technologies({
 
   return (
     <section className="container mx-auto px-6 lg:px-8 py-2 mb-25">
-      <div className="mb-10">
-        <h1 className="text-[#0F172A] font-black text-4xl font-inter mb-2">
-          Explore the{" "}
+      <div className="mb-10 text-center lg:text-left">
+        <h1 className="text-[#0F172A] font-black text-3xl lg:text-4xl font-inter mb-2">
+          Explore the
           <span className="bg-linear-to-r from-[#EC4899] to-[#8B5CF6] bg-clip-text text-transparent">
             Technologies
           </span>
