@@ -21,7 +21,7 @@ export default function StackCart({
   };
 
   return (
-    <div className="flex justify-between items-center border border-[#E2E8F0] rounded-lg px-4 py-2">
+    <div className="flex justify-between items-center border border-[#E2E8F0] rounded-lg p-2">
       <div className="flex items-center gap-2">
         <div className="w-7 h-7">
           <img src={technology.icon} alt={technology.name} />

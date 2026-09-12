@@ -64,7 +64,7 @@ const Navbar = () => {
             >
               <a
                 href="/"
-                className="text-[#475569] hover:text-[#DB2777] transition-all delay-75 font-medium text-sm hover:font-semibold"
+                className="text-[#475569] hover:text-[#DB2777] transition-all ease-in-out delay-100 font-medium text-sm hover:font-semibold"
               >
                 {link}
               </a>

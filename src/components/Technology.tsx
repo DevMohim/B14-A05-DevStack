@@ -32,7 +32,7 @@ export default function Technology({
   };
   return (
     <div
-      className={`p-5 rounded-2xl border  ${isSelect ? "border-[#D91B7E]" : "border-[#F1F5F9]"}`}
+      className={`p-5 rounded-2xl border transition-transform delay-100 hover:-translate-y-1  ${isSelect ? "border-[#D91B7E]" : "border-[#F1F5F9]"}`}
     >
       <div className="space-y-1.5">
         <div className="flex justify-between items-start">
@@ -69,7 +69,7 @@ export default function Technology({
         </div>
         <div>
           <button
-            className={`py-2.5 w-full  rounded-lg font-jakarta font-medium text-[12px]  cursor-pointer ${isSelect ? "text-[#D91B7E] bg-gray-200 font-semibold" : "text-white bg-[#0A0F1D]"} disabled:cursor-not-allowed`}
+            className={`py-2.5 w-full  rounded-lg font-jakarta font-medium text-[12px]  cursor-pointer border ${isSelect ? "text-[#D91B7E] bg-gray-200 font-semibold" : "text-white bg-[#0A0F1D]"} disabled:cursor-not-allowed`}
             onClick={handleSelect}
             disabled={isSelect}
           >

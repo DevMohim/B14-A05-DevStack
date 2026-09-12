@@ -17,10 +17,10 @@ const Banner = () => {
             project.
           </p>
           <div className="pt-3 flex items-center gap-3">
-            <button className="px-4 py-3 bg-linear-to-r from-[#F97316] to-[#EC4899] rounded-lg text-white w-50 text-sm font-semibold font-inter cursor-pointer">
+            <button className="px-4 py-3 bg-linear-to-r from-[#F97316] to-[#EC4899] rounded-lg text-white w-50 text-sm font-semibold font-inter cursor-pointer transition-transform delay-150 ease-in-out hover:scale-105">
               Explore Technologies
             </button>
-            <button className="px-4 py-3 rounded-lg w-50 font-medium font-inter text-[#374151] border border-[#E5E7EB] cursor-pointer">
+            <button className="px-4 py-3 rounded-lg w-50 font-medium font-inter text-[#374151] border border-[#E5E7EB] cursor-pointer transition-transform delay-150 ease-in-out hover:scale-105">
               Learn More
             </button>
           </div>
