@@ -1,75 +1,36 @@
-# React + TypeScript + Vite
+Project Name :-  Dev Stack 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description :- DesStack is a developer stack selection website where we can select and deselect stack from stack list and we can stock the stack into your stack section. It is also responsive for mobile , tablet and desktop/laptop. 
 
-Currently, two official plugins are available:
+Technology that use :-  
+1. HTML
+2. CSS
+3. JAVASCRIPT
+4. REACT
+5. TYPESCRIPT
+6. TAILWINDCSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+Features :- 
+1. Select any stack from technologies section
+2. Delete each stack from stack container
+3. Delete all stack from stack container in one click
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+QNA :- 
+1. JSX is a syntax that let us write HTML like code into javascript.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+2. Props are use to pass data from parent to child element and State is store and manange data inside react component that can change over time.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+3. useState is used to create and manage state in a React component. In this project , I use useState hook when I store selected technologies .
 
-```
+4. useEffect is used to run code after a component renders.We can use it for tasks like fetching API data, loading JSON data, or working with external resources.
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+5. Every item in a .map() list need a unique key prop because React need a unique key to identify each item in a list.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+6. Conditional rendering is showing difference UI based on a condition . In this project, I show conditonal rendering  when I select a card from technogies section . For conditional rendering , there was a change into button . Button name show a different text when we select.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+7. When I need to pass data from parent to child component , I use props .
+   But when i need to data from child to parent component ,  I use state lifting up . 
