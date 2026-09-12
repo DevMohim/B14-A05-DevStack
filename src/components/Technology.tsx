@@ -1,24 +1,25 @@
 import { IoMdStar } from "react-icons/io";
 import type { ITechnologyType } from "../types/TechnologyType";
-import { useState, type Dispatch, type SetStateAction } from "react";
+import { type Dispatch, type SetStateAction } from "react";
 import { Bounce, toast } from "react-toastify";
 
 export interface TechnologyProps {
   technology: ITechnologyType;
   setTechnologyCart: Dispatch<SetStateAction<ITechnologyType[]>>;
+  technologyCart : ITechnologyType[]
 }
 
 export default function Technology({
   technology,
   setTechnologyCart,
+  technologyCart
   
 }: TechnologyProps) {
-  const [isSelect, setIsSelect] = useState<boolean>(false);
+  const isSelect = technologyCart.some(stack => stack.id === technology.id)
 
 
 
   const handleSelect = () => {
-    setIsSelect(true);
     setTechnologyCart((prevTech) => [...prevTech, technology]);
     toast.success(`${technology.name} added successfully`, {
       position: "bottom-right",

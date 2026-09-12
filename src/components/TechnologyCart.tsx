@@ -13,6 +13,8 @@ export default function StackCart({
   technologyCart,
   setTechnologyCart,
 }: TechnologyCartProps) {
+
+  
   const handleDeleteClick = (id: string) => {
     const remainingStack = technologyCart.filter(
       (technology) => technology.id !== id,

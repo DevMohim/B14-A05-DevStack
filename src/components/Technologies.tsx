@@ -49,6 +49,7 @@ export default function Technologies({
               key={technology.id}
               technology={technology}
               setTechnologyCart={setTechnologyCart}
+              technologyCart = {technologyCart}
             />
           ))}
         </div>
