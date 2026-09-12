@@ -1,6 +1,7 @@
 import { RxCross2 } from "react-icons/rx";
 import type { ITechnologyType } from "../types/TechnologyType";
 import type { Dispatch, SetStateAction } from "react";
+import { Bounce, toast } from "react-toastify";
 
 export interface TechnologyCartProps {
   technology: ITechnologyType;
@@ -13,11 +14,23 @@ export default function StackCart({
   technologyCart,
   setTechnologyCart,
 }: TechnologyCartProps) {
+
   const handleDeleteClick = (id: string) => {
     const remainingStack = technologyCart.filter(
       (technology) => technology.id !== id,
     );
     setTechnologyCart(remainingStack);
+    toast.info(`${technology.name} remove successfully`, {
+      position: "bottom-right",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+    });
   };
 
   return (

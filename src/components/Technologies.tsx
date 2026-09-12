@@ -2,6 +2,7 @@ import { use, useState } from "react";
 import type { ITechnologyType } from "../types/TechnologyType";
 import Technology from "./Technology";
 import TechnologyCart from "./TechnologyCart";
+import { Bounce, toast } from "react-toastify";
 
 export interface TechnologiesProps {
   technologiesPromise: Promise<ITechnologyType[]>;
@@ -14,6 +15,17 @@ export default function Technologies({
 
   const handleAllDelete = () => {
     setTechnologyCart([]);
+    toast.info(`Remove all item successfully`, {
+      position: "bottom-right",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Bounce,
+    });
   };
 
   const technologies = use(technologiesPromise);

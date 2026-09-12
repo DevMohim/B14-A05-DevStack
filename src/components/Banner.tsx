@@ -11,7 +11,7 @@ const Banner = () => {
               Development Stack
             </p>
           </h1>
-          <p className="font-jakarta text-center lg:text-left text-sm lg:text-lg text-[#475569] mb-5 lg:mb-10 lg:max-w-140 leading-5 max-w-[85%]">
+          <p className="font-jakarta text-center lg:text-left text-sm lg:text-lg text-[#475569] mb-5 lg:mb-10 lg:max-w-140 leading-5 max-w-[85%] ">
             Explore frontend, backend, database, and tooling options, compare
             them side by side, and put together the stack that fits your next
             project.
@@ -20,7 +20,7 @@ const Banner = () => {
             <button className="px-4 py-3 bg-linear-to-r from-[#F97316] to-[#EC4899] rounded-lg text-white w-50 text-sm font-semibold font-inter cursor-pointer transition-transform delay-150 ease-in-out hover:scale-105">
               Explore Technologies
             </button>
-            <button className="px-4 py-3 rounded-lg w-50 font-medium font-inter text-[#374151] border border-[#E5E7EB] cursor-pointer transition-transform delay-150 ease-in-out hover:scale-105">
+            <button className="px-4 py-3 rounded-lg w-50 font-medium font-inter text-[#374151] border border-[#E5E7EB] cursor-pointer transition-transform delay-150 ease-in-out hover:scale-105 bg-(--gradient-primary)">
               Learn More
             </button>
           </div>
