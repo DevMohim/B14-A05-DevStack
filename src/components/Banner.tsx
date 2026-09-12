@@ -2,7 +2,7 @@ import BannerImg from "../assets/banner-stack.png";
 
 const Banner = () => {
   return (
-    <section className="container mx-auto px-6 lg:px-8 py-2 mb-2 lg:mb-28">
+    <section className="container mx-auto px-6 lg:px-8 py-2 mb-2 lg:mb-28 mt-20 lg:mt-40">
       <div className="grid grid-cols-1 lg:grid-cols-12 lg:gap-10 ">
         <div className="lg:col-span-8 flex flex-col justify-center items-center lg:items-start">
           <h1 className="font-inter text-[#0F172A] font-bold lg:font-black text-3xl lg:text-[60px] text-center lg:text-left lg:leading-14 mb-6">
