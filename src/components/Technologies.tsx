@@ -10,17 +10,11 @@ export interface TechnologiesProps {
 export default function Technologies({
   technologiesPromise,
 }: TechnologiesProps) {
-
   const [technologyCart, setTechnologyCart] = useState<ITechnologyType[]>([]);
 
-
-
-
   const handleAllDelete = () => {
-   setTechnologyCart([])
-  }
-
-
+    setTechnologyCart([]);
+  };
 
   const technologies = use(technologiesPromise);
 
@@ -49,7 +43,7 @@ export default function Technologies({
               key={technology.id}
               technology={technology}
               setTechnologyCart={setTechnologyCart}
-              technologyCart = {technologyCart}
+              technologyCart={technologyCart}
             />
           ))}
         </div>
@@ -59,8 +53,7 @@ export default function Technologies({
         <div
           className={`col-span-12 md:col-span-6 lg:col-span-3 p-5 rounded-2xl border border-[#F1F5F9] flex flex-col justify-start`}
         >
-          <div
-            className={`flex flex-col`}>
+          <div className={`flex flex-col`}>
             <div className="mb-4">
               <h1 className="font-bold text-[16px] font-inter text-[#0F172A]">
                 Your Stack

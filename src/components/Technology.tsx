@@ -6,18 +6,15 @@ import { Bounce, toast } from "react-toastify";
 export interface TechnologyProps {
   technology: ITechnologyType;
   setTechnologyCart: Dispatch<SetStateAction<ITechnologyType[]>>;
-  technologyCart : ITechnologyType[]
+  technologyCart: ITechnologyType[];
 }
 
 export default function Technology({
   technology,
   setTechnologyCart,
-  technologyCart
-  
+  technologyCart,
 }: TechnologyProps) {
-  const isSelect = technologyCart.some(stack => stack.id === technology.id)
-
-
+  const isSelect = technologyCart.some((stack) => stack.id === technology.id);
 
   const handleSelect = () => {
     setTechnologyCart((prevTech) => [...prevTech, technology]);

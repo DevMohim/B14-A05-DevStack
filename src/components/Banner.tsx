@@ -26,7 +26,11 @@ const Banner = () => {
           </div>
         </div>
         <div className="lg:col-span-4 flex items-center justify-center">
-          <img src={BannerImg} alt="Banner stack image" className="mt-5 lg:mt-0"/>
+          <img
+            src={BannerImg}
+            alt="Banner stack image"
+            className="mt-5 lg:mt-0"
+          />
         </div>
       </div>
     </section>
