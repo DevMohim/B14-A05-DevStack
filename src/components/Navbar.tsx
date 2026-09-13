@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="container mx-auto mb-10 lg:mb-24 fixed top-0 left-0 bg-white">
+    <div className="container mx-auto mb-10 lg:mb-24 fixed top-0 left-0 bg-white z-10">
       <nav className="flex justify-between items-center gap-4 px-6 lg:px-8 py-2 font-jakarta">
         <div className="lg:hidden cursor-pointer" onClick={handleMenuClick}>
           {isMenuOpen ? (
